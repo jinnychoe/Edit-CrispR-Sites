@@ -2,7 +2,7 @@ Identifying and modifying CRISPR sites in genes
 ===============================================
 This repository contains a collection of bash scripts and python programs used to process genomic data in FASTA files. The scripts have been validated to run on Linux systems to determine genes that contain target motifs, determine possible CRISPR sites in genes, edit nucleotide sequence at CRISPR sites, and summarize the data in a report.  
  
-Purpose  
+About 
 -------
 1. The `copyExomes.sh` script reads data in the `clinical_data.txt` file in the working directory. The script identifies target exomes that have a diameter that is between 20 to 30 mm long and have genomes that are sequenced. The exomes that meet this requirement are copied from the `exome` directory to the `exomesCohort` directory.  
  
@@ -14,7 +14,7 @@ Purpose
  
 5. The `exomeReport.py` script creates a report that summarizes data about the exomes that were selected by `copyExomes.sh`. It also finds the union of the genes across the exomes in the `preCRISPR` directory. It summarizes the total number of genes in the union.   
  
-Execute the scripts using Terminal in Ubuntu:  
+Execute the scripts in Ubunutu/Linux
 ---------------------------------------------
 1. The `copyExomes.sh`, `createCrisprReady.sh`, `identifyCrisprSite.sh`, `editGenome.sh`, and `exomeReport.py` scripts should be located in the working directory  
  
