@@ -1,5 +1,3 @@
-# Edit-CrispR-Sites
-
 Identifying and modifying CRISPR sites in genes  
 ===============================================
 This repository contains a collection of bash scripts and python programs used to process genomic data in FASTA files. The scripts have been validated to run on Linux systems to determine genes that contain target motifs, determine possible CRISPR sites in genes, edit nucleotide sequence at CRISPR sites, and summarize the data in a report.  
